@@ -6,13 +6,108 @@
 }
 
 body {
-    background-color: rgb(245, 244, 218);
-    color: rgb(41, 41, 41);
+    background-color: #f3e8ee;
+    color: #2e2c2f;
     font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 }
 
+header {
+    background-color: #729b79;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 30px 100px 0 100px;
+    max-height: 100px;
+    position: fixed;
+    width: 100%;
+}
+
+header h1 {
+    color: #f3e8ee;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #f3e8ee;
+    text-transform: uppercase;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 130px;
+}
+
 article {
-    border-left: 5px solid rgb(80, 80, 80);
+    border-left: 5px solid #475b63;
     padding-left: 20px;
     margin-bottom: 30px;
+}
+
+#welcome {
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contactinfo {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    background-color: #bacdb0;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#contactinfo h3 {
+    margin: 0;
+}
+
+#socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+#socials article {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about section ul {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #bacdb0;
+    width: 100%;
+    padding: 30px 100px 0 100px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    color: #2e2c2f;
 }
